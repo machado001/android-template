@@ -1,0 +1,19 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/gabrielhexa2000/AndroidStudioProjects/apptemplate/loggur/src/main/AndroidManifest.xml:2:1-5:12
+INJECTED from /home/gabrielhexa2000/AndroidStudioProjects/apptemplate/loggur/src/main/AndroidManifest.xml:2:1-5:12
+	package
+		ADDED from /home/gabrielhexa2000/AndroidStudioProjects/apptemplate/loggur/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /home/gabrielhexa2000/AndroidStudioProjects/apptemplate/loggur/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/gabrielhexa2000/AndroidStudioProjects/apptemplate/loggur/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/gabrielhexa2000/AndroidStudioProjects/apptemplate/loggur/src/main/AndroidManifest.xml:4:5-20
+uses-sdk
+INJECTED from /home/gabrielhexa2000/AndroidStudioProjects/apptemplate/loggur/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/gabrielhexa2000/AndroidStudioProjects/apptemplate/loggur/src/main/AndroidManifest.xml
+INJECTED from /home/gabrielhexa2000/AndroidStudioProjects/apptemplate/loggur/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/gabrielhexa2000/AndroidStudioProjects/apptemplate/loggur/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/gabrielhexa2000/AndroidStudioProjects/apptemplate/loggur/src/main/AndroidManifest.xml

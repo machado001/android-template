@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "000000000000",
+    "project_id": "apptemplate-placeholder",
+    "storage_bucket": "apptemplate-placeholder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:000000000000:android:placeholderappid",
+        "android_client_info": {
+          "package_name": "dev.machado001.apptemplate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "placeholder"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:000000000000:android:placeholderappiddebug",
+        "android_client_info": {
+          "package_name": "dev.machado001.apptemplate.debug"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "placeholder-debug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

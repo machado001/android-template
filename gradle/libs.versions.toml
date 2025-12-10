@@ -1,0 +1,78 @@
+[versions]
+activityCompose = "1.12.1"
+agp = "8.13.1"
+appUpdate = "2.1.0"
+appcompat = "1.7.1"
+composeBom = "2025.12.00"
+coreKtx = "1.17.0"
+datastorePreferences = "1.2.0"
+espressoCore = "3.7.0"
+firebaseBom = "34.6.0"
+generativeai = "0.9.0"
+junit = "4.13.2"
+junitExt = "1.3.0"
+koinAndroidxCompose = "4.1.1"
+kotlin = "2.2.21"
+kotlinxSerializationJson = "1.9.0"
+ksp = "2.2.21-2.0.4"
+lifecycleRuntimeKtx = "2.10.0"
+lottie = "6.7.1"
+material = "1.13.0"
+navigationCompose = "2.9.6"
+playServicesAds = "24.8.0"
+revenuecat = "9.15.3"
+review = "2.0.2"
+room = "2.8.4"
+uiTextGoogleFonts = "1.10.0"
+
+[libraries]
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+app-update = { module = "com.google.android.play:app-update", version.ref = "appUpdate" }
+app-update-ktx = { module = "com.google.android.play:app-update-ktx", version.ref = "appUpdate" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+datastore-preferences = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "datastorePreferences" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitExt" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-appcheck-debug = { module = "com.google.firebase:firebase-appcheck-debug" }
+firebase-appcheck-playintegrity = { module = "com.google.firebase:firebase-appcheck-playintegrity" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics" }
+generativeai = { group = "com.google.ai.client.generativeai", name = "generativeai", version.ref = "generativeai" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+koin-androidx-compose = { module = "io.insert-koin:koin-androidx-compose", version.ref = "koinAndroidxCompose" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+lottie = { module = "com.airbnb.android:lottie-compose", version.ref = "lottie" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+material3 = { group = "androidx.compose.material3", name = "material3" }
+navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
+play-services-ads = { module = "com.google.android.gms:play-services-ads", version.ref = "playServicesAds" }
+revenuecat-ui = { module = "com.revenuecat.purchases:purchases-ui", version.ref = "revenuecat" }
+review = { module = "com.google.android.play:review", version.ref = "review" }
+review-ktx = { module = "com.google.android.play:review-ktx", version.ref = "review" }
+room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+room-runtime = { module = "androidx.room:room-ktx", version.ref = "room" }
+ui = { group = "androidx.compose.ui", name = "ui" }
+ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+ui-text-google-fonts = { group = "androidx.compose.ui", name = "ui-text-google-fonts", version.ref = "uiTextGoogleFonts" }
+ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended" }
+
+[bundles]
+compose-ui = ["ui", "ui-graphics", "ui-tooling-preview", "material3"]
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+firebase-crashlytics = { id = "com.google.firebase.crashlytics", version = "3.0.6" }
+google-services = { id = "com.google.gms.google-services", version = "4.4.4" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
